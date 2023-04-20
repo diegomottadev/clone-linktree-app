@@ -1,0 +1,23 @@
+.title {
+    margin-top: 10px;
+    position: relative;
+    padding-bottom: 20px;
+    color: var(--accentColor);
+    font-size: 20px;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    /*  animation   */
+    overflow: hidden;
+    /* background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor)); */
+    background: linear-gradient(90deg, var(--accentColor), var(--accentColor), var(--accentColor));
+
+    /* background-repeat: no-repeat; */
+    /* background-size: 80%; */
+    /* animation: animate 3.8s linear var(--delay) infinite; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
