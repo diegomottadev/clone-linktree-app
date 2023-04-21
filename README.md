@@ -5,7 +5,7 @@ To run the clone of Linktree on your computer, you'll need to install Node.js an
 
   1 - Clone the project:
 
-    git clone https://github.com/diegomottadev/survey-app-view.git
+    git clone https://github.com/diegomottadev/clone-linktree-app
   
   2 - Install dependencies:
     
