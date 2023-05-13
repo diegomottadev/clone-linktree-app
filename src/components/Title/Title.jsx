@@ -23,7 +23,7 @@ const Title = () => {
 
     return (
     <div className='title'>
-        {title}  <img src="images/argentina-flag-wave-icon-16.png" alt={title}/>
+        {title}  <img src="images/argentina-flag-wave-icon-16.png" alt={title}/><img src="images/mate.png" width="16" height="16" alt="mate"/> 
     </div>
     );
 
