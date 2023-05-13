@@ -5,6 +5,7 @@ import UserName from './components/UserName/UserName';
 import Title from './components/Title/Title';
 import HyperLink from './components/HiperLink/HyperLink';
 import Subtitle from './components/Subtitle/Subtitle';
+import Bio from './components/Bio/Bio';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <UserName/>
         <Title/>
         <Subtitle/>
+
+        <Bio/>
         <HyperLink/>
     </div>
   );
