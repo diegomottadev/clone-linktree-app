@@ -10,6 +10,18 @@ const Bio = () => (
   <p className="bio">
     Aside from my love for coding, I'm also a dog lover 🐶, a gym enthusiast 💪, and a trail runner 🏃‍♂️.
   </p>
+  <div style={{ padding: "75% 0 0 0", position: "relative" }}>
+      <iframe
+        src="https://player.vimeo.com/video/846736444?badge=0&autopause=0&player_id=0&app_id=58479"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+        style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+        title="my_value_proposal"
+      ></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
 </div>
 );
 
