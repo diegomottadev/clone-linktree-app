@@ -52,7 +52,7 @@ const Result = ({ currentLanguage  }) => {
         {
             title: 'Patagonia Dreams',
             content: [
-                'Durante mi colaboración en Patagonia Dreams fué el desarrollo y mantenimiento de un sistema de gestión web para planificar estadías y excursiones, mi contribución se enfocó en añadir funcionalidades que calcularan el precio de las excursiones según la temporada (baja o alta), la inclusión de desayuno o almuerzo, si era una excursión privada o en grupo, y la disponibilidad para realizarla, así como la generación de diversos reportes. Estas mejoras permitieron una organización más eficiente en la compra de excursiones y mejoraron significativamente la experiencia del usuario al planificar sus viajes, además de proporcionar más datos de control para el agente de viaje.'
+                'Durante mi colaboración en Patagonia Dreams fue el desarrollo y mantenimiento de un sistema de gestión web para planificar estadías y excursiones, mi contribución se enfocó en añadir funcionalidades que calcularan el precio de las excursiones según la temporada (baja o alta), la inclusión de desayuno o almuerzo, si era una excursión privada o en grupo, y la disponibilidad para realizarla, así como la generación de diversos reportes. Estas mejoras permitieron una organización más eficiente en la compra de excursiones y mejoraron significativamente la experiencia del usuario al planificar sus viajes, además de proporcionar más datos de control para el agente de viaje.'
             ], 
         },
         {
