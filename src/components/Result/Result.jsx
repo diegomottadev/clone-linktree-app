@@ -33,7 +33,9 @@ const Result = ({ currentLanguage  }) => {
         {
             title: 'Club Pedidos',
             content: [
-             'En Club Pedidos, contribuí al desarrollo de una avanzada plataforma de pedidos en línea con integración de chatbot de WhatsApp. Mi labor mejoró la eficiencia de los pedidos y la comunicación con los clientes dentro del chatbot, además de gestionar y almacenar información de los pedidos en la plataforma para que la empresa contratante tomara decisiones basadas en estadísticas. Gracias a los diversos requisitos que desarrollé, optimizaciones de código y diseño de interfaz, la empresa pudo lanzarse con éxito al mercado y obtener más de 10 clientes potenciales por mes a través de sus campañas de marketing.'
+             'En Club Pedidos, contribuí al desarrollo de una avanzada plataforma de pedidos en línea con integración de chatbot de WhatsApp. Mi labor mejoró la eficiencia de los pedidos y la comunicación con los clientes dentro del chatbot, además de gestionar y almacenar información de los pedidos en la plataforma para que la empresa contratante tomara decisiones basadas en estadísticas. Gracias a los diversos requisitos que desarrollé, optimizaciones de código y diseño de interfaz, la empresa pudo lanzarse con éxito al mercado y obtener más de 10 clientes potenciales por mes a través de sus campañas de marketing.',
+             '🔗https://clubpedidos.com'
+             
             ], // Puedes agregar más objetos al arreglo para más acordeones
         },
 
@@ -52,7 +54,8 @@ const Result = ({ currentLanguage  }) => {
         {
             title: 'Patagonia Dreams',
             content: [
-                'Durante mi colaboración en Patagonia Dreams fue el desarrollo y mantenimiento de un sistema de gestión web para planificar estadías y excursiones, mi contribución se enfocó en añadir funcionalidades que calcularan el precio de las excursiones según la temporada (baja o alta), la inclusión de desayuno o almuerzo, si era una excursión privada o en grupo, y la disponibilidad para realizarla, así como la generación de diversos reportes. Estas mejoras permitieron una organización más eficiente en la compra de excursiones y mejoraron significativamente la experiencia del usuario al planificar sus viajes, además de proporcionar más datos de control para el agente de viaje.'
+                'Durante mi colaboración en Patagonia Dreams fue el desarrollo y mantenimiento de un sistema de gestión web para planificar estadías y excursiones, mi contribución se enfocó en añadir funcionalidades que calcularan el precio de las excursiones según la temporada (baja o alta), la inclusión de desayuno o almuerzo, si era una excursión privada o en grupo, y la disponibilidad para realizarla, así como la generación de diversos reportes. Estas mejoras permitieron una organización más eficiente en la compra de excursiones y mejoraron significativamente la experiencia del usuario al planificar sus viajes, además de proporcionar más datos de control para el agente de viaje.',
+                '🔗https://www.patagoniadreams.com.ar/'
             ], 
         },
         {
