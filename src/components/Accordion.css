@@ -1,0 +1,55 @@
+/* Estilos para el acordeón */
+
+  
+  /* Estilos para el título del acordeón */
+
+  .result {
+    color: var(--accentColor);
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.25;
+    font-family: var(--font);
+
+    text-align: justify;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.result-title {
+    color: var(--accentColor);
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.25;
+    font-family: var(--font);
+
+    text-align: justify;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+/* Estilos para el acordeón */
+
+.accordion {
+    border: 1px solid #ccc;
+    margin: 10px;
+    /* padding: 10px; */
+    cursor: pointer; /* Cambia el cursor a una mano */
+  }
+  
+  /* Estilos para el contenido del acordeón */
+  .accordion-content {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Estilos para los enlaces cuando el acordeón está expandido */
+  .accordion.expanded .accordion-content a {
+    cursor: auto;
+  }
+  .accordion-content a {
+    text-decoration: underline; /* Agrega subrayado a los enlaces */
+    color: var(--accentColor); /* Cambia el color de los enlaces */
+    cursor: pointer; /* Cambia el cursor a una mano */
+  }
