@@ -18,7 +18,16 @@
 
 }
 
+.language-selector {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones al margen derecho */
+    padding: 5px;
+  }
 
+  .language-selector button.selected {
+    border: 2px solid var(--accentColor);
+    border-radius: 5px;
+  }
 /*-------------------------animations-----------------------*/
 @keyframes transitionAnimation {
     0% {
