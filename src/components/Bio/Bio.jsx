@@ -1,18 +1,38 @@
 import React from "react";
 import "./Bio.css";
 
-const Bio = (onBio) => {
-
+const Bio = ({onBio}) => {
+  const {content_1,content_2,content_3,content_4,content_5,content_6,content_7} = onBio
   return (
     <div className="bio-box">
       <p className="bio">
         {/* Hi there! 👋I'm a self-taught and passionate software developer based in Argentina. With over 9 years of experience as a fullstack developer web, I bring a wealth of expertise to every project I undertake. */}
-        {onBio.onBio.content_1}
+        {content_1}
     
       </p>
       <p className="bio">
         {/* Aside from my love for coding, I'm also a dog lover 🐶, a gym enthusiast 💪, and a trail runner 🏃‍♂️. */}
-        {onBio.onBio.content_2}
+        {content_2}
+      </p>
+      <p className="bio">
+        {/* Aside from my love for coding, I'm also a dog lover 🐶, a gym enthusiast 💪, and a trail runner 🏃‍♂️. */}
+        {content_3}
+      </p>
+      <p className="bio">
+        {/* Aside from my love for coding, I'm also a dog lover 🐶, a gym enthusiast 💪, and a trail runner 🏃‍♂️. */}
+        {content_4}
+      </p>
+      <p className="bio">
+        {/* Aside from my love for coding, I'm also a dog lover 🐶, a gym enthusiast 💪, and a trail runner 🏃‍♂️. */}
+        {content_5}
+      </p>
+      <p className="bio">
+        {/* Aside from my love for coding, I'm also a dog lover 🐶, a gym enthusiast 💪, and a trail runner 🏃‍♂️. */}
+        {content_6}
+      </p>
+      <p className="bio">
+        {/* Aside from my love for coding, I'm also a dog lover 🐶, a gym enthusiast 💪, and a trail runner 🏃‍♂️. */}
+        {content_7}
       </p>
       <div style={{ padding: "75% 0 0 0", position: "relative" }}>
           <iframe

@@ -10,6 +10,7 @@ import Result from "./components/Result/Result";
 import { useState } from "react";
 import en from './languajes/en';
 import es from './languajes/es';
+import DescriptionHyperlinks from "./components/DescriptionHyperlinks/DescriptionHyperlinks";
 
 
 const LanguageSelector = ({ onSelectLanguage,currentLanguage  }) => {
@@ -46,6 +47,7 @@ function App() {
               <Title onTitle={texts.title}/>
               <Subtitle  />
               <Bio onBio={texts.bio}/>
+              <DescriptionHyperlinks onDescription={texts.descriptionHyperlinks} />
               <HyperLink onHyperlink={texts.hyperlinks} />
             </div>
           }
