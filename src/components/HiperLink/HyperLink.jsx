@@ -16,10 +16,12 @@ const HyperLink = ({ onHyperlink }) => {
         <Link className="link" onClick={(e)=>onClickResult (e)}>
             <i className="fa fa-trophy">&nbsp;</i>{content_1}
         </Link>
+        <a className="link" href="https://github.com/diegomottadev" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-github">&nbsp;</i>Github
+        </a>
         <a className="link" href="https://diegomotta.dev" target="_blank" rel="noopener noreferrer">
             <i className="fab fas fa-briefcase">&nbsp;</i>{content_2} 
         </a>
-
 
         <a className="link" href="https://diegomotta.dev" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-globe">&nbsp;</i>{content_3} 
@@ -29,9 +31,6 @@ const HyperLink = ({ onHyperlink }) => {
             <i className="fab fa-linkedin">&nbsp;</i>Linkedin 
         </a>
     
-        <a className="link" href="https://github.com/diegomottadev" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github">&nbsp;</i>Github
-        </a>
         <a className="link" href="https://docs.google.com/forms/d/1fv3ikXJz9HDjEzX0c5KW1SkoLyyY1nrbB4Ma5IQ5vMo/edit" target="_blank" rel="noopener noreferrer">
         <i className="fa fa-inbox">&nbsp;</i> {content_4} 
         </a>
