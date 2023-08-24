@@ -19,6 +19,9 @@ const HyperLink = ({ onHyperlink }) => {
         <a className="link" href="https://github.com/diegomottadev" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github">&nbsp;</i>Github
         </a>
+        <a className="link" href="https://medium.com/@diegomottadev" target="_blank" rel="noopener noreferrer">
+            <i className="fa fa-medium">&nbsp;</i>Medium
+        </a>
         <a className="link" href="https://diegomotta.dev" target="_blank" rel="noopener noreferrer">
             <i className="fab fas fa-briefcase">&nbsp;</i>{content_2} 
         </a>
