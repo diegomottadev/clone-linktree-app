@@ -13,7 +13,7 @@ export default {
         content_7: "These projects have led to tangible results, functional realities, and highly satisfied clients."
     },
     descriptionHyperlinks: {
-        content_1: '👇Check out the results I achieved in my role as a fullstack web developer👇'
+        content_1: '👇 Visit my website to download my ebook "DEV 101" and gain access to invaluable tips to boost your career as a software developer.👇'
     },
     hyperlinks : {
         content_0: "{DEV 101} \n Invaluable Tips to Boost Your Dev Career",
