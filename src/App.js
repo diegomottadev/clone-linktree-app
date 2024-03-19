@@ -47,7 +47,7 @@ function App() {
               <Title onTitle={texts.title}/>
               <Subtitle  />
               <Bio onBio={texts.bio} currentLanguage={language}/>
-              {/* <DescriptionHyperlinks onDescription={texts.descriptionHyperlinks} /> */}
+              <DescriptionHyperlinks onDescription={texts.descriptionHyperlinks} />
               <HyperLink onHyperlink={texts.hyperlinks} />
             </div>
           }

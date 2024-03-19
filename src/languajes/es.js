@@ -13,7 +13,7 @@ export default {
         content_7 :"Estos proyectos han dado lugar a resultados tangibles, realidades funcionales y clientes completamente encantados."
     },
     descriptionHyperlinks:{
-        content_1 :'👇Mirá los resultados que logré en mi rol de desarrollador fullstack web👇'
+        content_1 :'👇 Visita mi sitio web para descargar mi ebook "DEV 101" y obtén acceso tips invaluables para potenciar tu carrera como desarrollador de software.👇'
     },
     hyperlinks : {
         content_0: "Descarga gratis la guía [DEV 101] \n Tips invaluables para potenciar tu carrera dev",
