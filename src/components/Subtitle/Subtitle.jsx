@@ -8,14 +8,14 @@ const Subtitle = () => {
     useEffect(() => {
         
         const intervalId = setInterval(() => {
-            if (subtitle.trim() === '#Node.js #Express.js #MongoDB') {
+            if (subtitle.trim() === '#Node.js #Express.js #Jest #Supertest') {
                 setsubtitle('#React.js #Javascrip #TypeScript');
             }else if (subtitle.trim() === '#React.js #Javascrip #TypeScript') {
                 setsubtitle('#PHP #Laravel #MySql');
             }else if (subtitle.trim() === '#PHP #Laravel #MySql') {
                 setsubtitle('#AWS #Docker #DigitalOceon #Git');
             }else {
-                setsubtitle('#Node.js #Express.js #MongoDB');
+                setsubtitle('#Node.js #Express.js #Jest #Supertest');
             }
         }, 2000);
 

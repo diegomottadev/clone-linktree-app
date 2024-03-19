@@ -16,10 +16,11 @@ export default {
         content_1: '👇Check out the results I achieved in my role as a fullstack web developer👇'
     },
     hyperlinks : {
+        content_0: "{DEV 101} \n Invaluable Tips to Boost Your Dev Career",
         content_1: "My Achievements",
         content_2: "Portfolio",
-        content_3: "Visit my Blog",
-        content_4: "Do you want me to apply for an IT proposal? It's over here.",
+        content_3: "Site web",
+        content_4: "X (ex-Twitter)",
         content_5: "Contact Me",
     }
 };

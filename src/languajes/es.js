@@ -16,10 +16,12 @@ export default {
         content_1 :'👇Mirá los resultados que logré en mi rol de desarrollador fullstack web👇'
     },
     hyperlinks : {
+        content_0: "Descarga gratis la guía [DEV 101] \n Tips invaluables para potenciar tu carrera dev",
         content_1: "Mis resultados",
         content_2: "Portofolio",
-        content_3: "Visita mi blog",
-        content_4: "¿Querés que aplique a una propuesta IT?",
+        content_3: "Sitio web",
+        content_4: "X (ex-Twitter)",
         content_5: "Contactame",
+        
     }
   };
