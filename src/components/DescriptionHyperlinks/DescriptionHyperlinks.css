@@ -1,16 +1,16 @@
-.bio-box {
+.description-box {
     max-width: 600px;
     width: auto;
     display: block;
     margin: 0 auto;
 }
 
-.bio {
+.description-text {
     color: var(--text-secondary);
     font-size: 0.95rem;
-    margin: 0;
+    margin: 0 10px;
     line-height: 1.6;
     font-family: var(--font);
-    text-align: justify;
+    text-align: center;
     text-decoration: none;
 }
