@@ -4,13 +4,16 @@ export default {
         content : "Fullstack Web Developer"
     },
     bio: {
-        content_1: "👋 Hello! I'm a software developer with over 9 years of experience in web application development.",
-        content_2: "My mission is to enhance your projects to provide the best experience for both your valued clients and your talented team.",
-        content_3: "Improving applicability, user experience, and optimizing resources through web applications, resulting in satisfied clients.",
-        content_4: "Every project I undertake, every line of code I write is a testament to my dedication and passion for creating strategic solutions.",
-        content_5: "I had the privilege of being part of highly skilled web developer teams.",
-        content_6: "I have collaborated on a wide range of projects with a significant purpose, which have had an extremely positive impact on their applicability.",
-        content_7: "These projects have led to tangible results, functional realities, and highly satisfied clients."
+        content_1: "Hi, I'm Diego, I work in software development.",
+        content_2: "I've spent over 10 years building web applications for businesses that need faster, clearer, and more useful tools in their day-to-day.",
+        content_3: "I like working on products that are actually used.",
+        content_4: "The ones that help the team.",
+        content_5: "The ones that make the user experience feel right.",
+        content_6: "Over the years I've worked on projects and companies of all sizes, collaborating with great teams and building solutions with real impact.",
+        content_7: "I always try to make technology do one thing: solve problems without making things more complicated.",
+        content_8: "Because in the end, a good application isn't the one with the most features.",
+        content_9: "It's the one that works as it should.",
+        content_10: "Here you can see some of the projects and experiences that were part of that journey."
     },
     descriptionHyperlinks: {
         content_1: ''
