@@ -14,42 +14,59 @@ const Result = ({ currentLanguage  }) => {
     }
     const accordionData = [
         {
+            title: 'Dura Digital',
+            content: [
+                'Trabajé en Launch360, una plataforma SaaS de encuestas de feedback 360° y desarrollo organizacional. Mi rol fue mucho más allá de simplemente "desarrollar funcionalidades":',
+                '📌Arquitectura del producto: Desarrollé y mantuve una API en Laravel y una SPA en Vue.js, diseñada para organizaciones multi-tenant con acceso basado en roles.',
+                '📌Integraciones de terceros: Integré APIs como Square (pagos, suscripciones y facturación), SurveyMonkey (distribución de encuestas y recolección de respuestas) y Auth0 (autenticación).',
+                '📌Motor de reportes: Desarrollé un motor dinámico capaz de generar archivos PDF mediante renderizado del lado del servidor con Blade y Browsershot, además de exportaciones CSV en streaming con chunked processing.',
+                '📌Performance de la API: Optimicé mediante caché de endpoints, eager loading y colas de trabajos diferidos utilizando patrones de polling para operaciones asíncronas.',
+                '📌Tiempo real: Implementé funcionalidades utilizando WebSockets con Pusher y Laravel Echo para actualizar en vivo el estado de las encuestas.',
+                '📌DevOps: Gestioné despliegues containerizados utilizando Docker.',
+                '🔗https://launch-360.com/'
+            ],
+        },
+        {
+            title: 'Lirmi',
+            content: [
+                'Colaboré con el equipo encargado del mantenimiento y la evolución de una plataforma integral para la gestión escolar, orientada a facilitar la labor de docentes, estudiantes y familias.',
+                'Mi trabajo se enfocó en la identificación y resolución de errores técnicos, así como en el desarrollo de nuevas funcionalidades que mejoran la experiencia del usuario. Utilicé tecnologías como PHP, Laravel, Vue.js, JavaScript y PostgreSQL para intervenir tanto en el backend como en el frontend. Entre mis responsabilidades estuvieron:',
+                '📌Desarrollo de componentes interactivos: para mejorar la usabilidad de la plataforma.',
+                '📌Optimización de consultas y estructuras de base de datos: para mejorar el rendimiento.',
+                '📌Mejora de procesos clave: alineando siempre las soluciones con los objetivos del producto y las necesidades reales de los usuarios.',
+                '🔗https://www.lirmi.com/'
+            ],
+        },
+        {
           title: 'Grupo Laken',
           content: [
-            'Mi participación actualmente en Grupo Lafken me ha llevado a resultados de optimización en la logística, comercialización y consultoría de medicamentos especiales y de alta complejidad, beneficiando a pacientes y profesionales de la salud:',
-            '📌Botiquines: desarrollo e implementación del control de stock de la medicación que es enviada desde las farmacias y recepcionadas en Sanatorio Franchin (Buenos Aires) para los pacientes que deben ser internados con una fecha propuesta para la ejecución de su tratamiento. Permitiendo tambien la asignación y/o reasignación de medicación asociado a un nuevo expediente.',
-            'La implementación aseguró al Sanatorio Francin que la medicación esté disponible y en la cantidad adecuada en el momento en que se necesita. Esto contribuye a mejorar la seguridad del paciente y la precisión en la entrega de tratamientos.',
-            '📌SMS masivo: desarrolle un proceso background de validación de contactos de pacientes de una prestadora de salud mediante el envío de SMS, en donde se establecía una serie de respuestas esperadas y acciones a ejecutar  según la respuesta enviada por el paciente, para proceder su validación y almacenamiento en una base de datos.',
-            'Mediante el uso de respuestas predefinidas y acciones programadas, se logró automatizar el proceso de validación. Esto ahorra tiempo y recursos al eliminar la necesidad de intervención manual en cada caso, lo que a su vez reduce posibles errores humanos.',
-            '📌API de Liquidaciones: Se necesitaba mejorar la integración de las liquidaciones de la prestadora de salud UOCRA en el sistema integral de la empresa, lo que dificultaba la recepción y validación de datos clave.',
-            'Desarrollé la integración de la API de Liquidaciones de UOCRA en nuestro sistema. Esta integración permitió la transferencia de liquidaciones en formato JSON, incluyendo fechas, detalles de medicamentos y costes, al Sistema UOCRA. Implementé una rigurosa validación de las respuestas del sistema, incorporando validaciones específicas y la interpretación de códigos de respuesta, determinando si las liquidaciones están completas, incompletas o inexistentes.',
-            'Como resultado, esta integración proporcionó claridad sobre su integridad, informa de manera precisa al área de contabilidad, asegurando decisiones informadas y eficientes en relación a las liquidaciones recibidas.,',
-            '📌Webtrackig - Módulo Producto No Retira: La gestión de pedidos en las farmacias de la red de la empresa requería una mejora en la eficiencia y la comunicación con los pacientes.',
-            'Carecía de un sistema sistematizado para seguir y gestionar los pedidos entregados en farmacias y los pendientes de retirada por parte de los pacientes, lo que dificultaba la toma de decisiones y la comunicación',
-            'Desarrolle el nuevo Módulo de “Producto No Retira” dentro de la plataforma “Web Tracking”, una herramienta innovadora que optimiza el seguimiento y la gestión de pedidos. Implementando web services y procesos background para envio de notificaciones vía WhatsApp para informar a los pacientes sobre la disponibilidad de sus medicamentos, con opciones para elegir.',
-            'Como resultado, se ha mejorado la gestión de pedidos, aumentado la eficiencia y logrado un seguimiento más efectivo de los casos, lo que ha impactado positivamente en la gestión general del proceso. '
+            'Soluciones de salud y logística para distribución farmacéutica, dispensación médica y automatización de atención al paciente. Stack: PHP, Laravel, Symfony, Doctrine, Angular, TypeScript, SQL Server, MySQL y Docker.',
+            '📌Plataforma farmacéutica: Gestión y trazabilidad de medicamentos con Laravel y Angular para operaciones a gran escala en Argentina.',
+            '📌Logística: Cálculos automáticos de tiempos de entrega, validación de pedidos, control de stock y coordinación entre farmacias, transportistas y pacientes.',
+            '📌Medicamentos para diabéticos: Sistema de gestión de solicitud de medicamentos para pacientes diabéticos en centros de salud.',
+            '📌Dispensación: Validación de recetas electrónicas, gestión de inventario y coordinación de dispensación para mejorar la trazabilidad operativa.',
+            '📌Cotizaciones: Plataforma de licitaciones con flujos automatizados, circuitos de aprobación por rentabilidad y exportación PDF/Excel.',
+            '📌Bot WhatsApp: Automatización de consultas médicas integrando servicios de terceros.',
+            '📌Atención al paciente: Lógica para coordinar retiros en farmacia y entregas a domicilio según historial y condición del paciente.',
           ],
         },
         {
             title: 'Club Pedidos',
             content: [
-             'En Club Pedidos, contribuí al desarrollo de una avanzada plataforma de pedidos en línea con integración de chatbot de WhatsApp. Mi labor mejoró la eficiencia de los pedidos y la comunicación con los clientes dentro del chatbot, además de gestionar y almacenar información de los pedidos en la plataforma para que la empresa contratante tomara decisiones basadas en estadísticas. Gracias a los diversos requisitos que desarrollé, optimizaciones de código y diseño de interfaz, la empresa pudo lanzarse con éxito al mercado y obtener más de 10 clientes potenciales por mes a través de sus campañas de marketing.',
+             'En Club Pedidos, contribuí al desarrollo de una avanzada plataforma de pedidos en línea con integración de chatbot de WhatsApp. Mi labor mejoró la eficiencia de los pedidos y la comunicación con los clientes dentro del chatbot, además de gestionar y almacenar información de los pedidos en la plataforma para que la empresa contratante tomara decisiones basadas en estadísticas. Gracias a los diversos requisitos que desarrollé, optimizaciones de código y diseño de interfaz, la empresa pudo lanzarse con éxito al mercado y obtener más de 2 clientes potenciales por mes a través de sus campañas de marketing.',
              '🔗https://clubpedidos.com'
-             
-            ], // Puedes agregar más objetos al arreglo para más acordeones
+            ],
         },
 
         {
             title: 'Marandú Comunicaciones',
             content: [
-             'Durante mi tiempo en Marandú Comunicaciones, participé en la implementación de diversos proyectos web para el sector público',
-             '🔗https://paf.misiones.gob.ar: Diseño, desarrollo e implementación de la plataforma de Productos de la Agricultura Familiar de Misiones (PAF). Con PAF cualquier persona de la provincia de Misiones puede encontrar los productores regionales, ver los productos que venden, donde lo pueden encontrar y ponerse en contacto. La plataforma web está disponible tambien para smartphone con sistema operativo Android.',
-             '🔗https://rutadelayerbamate.com.ar: Diseño, desarrollo e implementación de la plataforma de La Ruta de la Yerba Mate, que  conduce a los viajeros a recorrer establecimientos artesanales, ecológicos e industriales, en los que se puede conocer el proceso completo de producción, desde las extensas plantaciones pasando por la cosecha, el secado, la molienda y el envasado del producto final. La plataforma web está disponible tambien para smartphone con sistema operativo Android.',
-             '🔗https://cuenca.marandu.com.ar: Diseño, desarrollo e implementación del “Sistema Único de Gestión de Información” (SUGI) para uso de los productores de la Cuenca Ovino-Caprina Zona Sur de la provincia de Misiones.',
-             'La aplicación web incluye la actualización del stock de animales online, también el estado de afiliación del productor a los distintos registros y la posibilidad de consignar las altas y bajas de ejemplares para las transacciones comerciales.',
-             'La aplicación permitió a los organismos que trabajan en la Cuenca para eficientizar el control y la asistencia técnica necesaria con los equipos técnicos. A través de él se puede validar la oferta del producto, el origen y la trazabilidad del mismo, ya que es gestionada punto a punto, desde el productor a las procesadoras habilitadas (mataderos) y los comercializadores del producto (carne con las debidas certificaciones).',
-             '🔗https://guacurari.misiones.gov.ar/: La Plataforma Guacurarí es un sistema web de gestión escolar y comunicación, que contribuyó mediante producción y uso de contenidos educativos en formatos digitales que fomentan la interacción entre los docentes y los estudiantes como así optimizar la forma de trabajo de las escuelas técnicas de la provincia de Misiones. Mi principal contribución se centró en mejorar y desarrollar el módulo de mensajería segmentada con seguimiento de lectura, dando lugar a la creación de un canal directo con la comunidad educativa, mejorando la comunicación entre estudiantes, padres y profesores'
-            ], // Puedes agregar más objetos al arreglo para más acordeones
+                'Participé en el diseño, desarrollo e implementación de plataformas web para el sector público de la provincia de Misiones.',
+                '🔗https://paf.misiones.gob.ar: PAF — conecta productores regionales con consumidores de toda la provincia. Disponible también en Android.',
+                '🔗https://rutadelayerbamate.com.ar: Ruta de la Yerba Mate — plataforma turística que recorre establecimientos artesanales e industriales del proceso productivo. Disponible también en Android.',
+                '🔗https://cuenca.marandu.com.ar: SUGI — sistema de gestión para la Cuenca Ovino-Caprina con control de stock, afiliaciones y trazabilidad punto a punto desde el productor hasta la comercialización.',
+                '🔗https://guacurari.misiones.gov.ar/: Guacurarí — plataforma de gestión escolar para escuelas técnicas. Desarrollé el módulo de mensajería segmentada con seguimiento de lectura, mejorando la comunicación entre estudiantes, familias y docentes.',
+            ],
         },
         {
             title: 'Patagonia Dreams',
@@ -61,54 +78,77 @@ const Result = ({ currentLanguage  }) => {
         {
             title: 'Misiones Online',
             content: [
-                'En Misiones Online desarrollé desde cero una aplicación web de gestión de incidentes para el área de dirección de la empresa, para mejoramiento de la comunicación interna con las demás áreas. Mi trabajo contribuyó al orden y seguimiento de incidentes, aumentó la productividad interna y expandió la comunicación con los usuarios de las áreas de sistemas, comercial, prensa y redes sociales.'
-            ], 
+                'Durante mi tiempo en Misiones Online, trabajé como Desarrollador Web Fullstack PHP dentro del Departamento de Sistemas, contribuyendo al desarrollo y mantenimiento de plataformas internas utilizadas en operaciones, marketing y gestión publicitaria.',
+                '📌Gestión de tareas: Desarrollé y mantuve un sistema interno utilizado para asignar actividades y enviar notificaciones automáticas a empleados según su departamento y responsabilidades.',
+                '📌CRM: Contribuí al desarrollo de una plataforma enfocada en la gestión de contactos, campañas de comunicación, concursos, iniciativas de marketing y distribución masiva de correos electrónicos.',
+                '📌SGMOL: Trabajé en un sistema de gestión publicitaria que permitía a las empresas administrar formatos de banners, cargar materiales publicitarios, configurar la frecuencia de campañas en distintos medios y gestionar pagos.',
+                '📌Stack tecnológico: Colaboré tanto en backend como frontend utilizando PHP, JavaScript, jQuery, HTML, CSS y MySQL dentro de sistemas legacy y en evolución.',
+                '📌Impacto: Ayudé a mejorar los flujos de trabajo internos, la usabilidad de los sistemas y la eficiencia operativa en múltiples áreas del negocio.',
+            ],
         },
 
         {
             title: 'Ministerio de Salud Pública de la Provincia de Misiones',
             content: [
                 'Mi colaboración en esta institución tuvo un impacto positivo al desarrollar un módulo dentro del sistema “Programa Sumar” para el seguimiento cronológico de pacientes, como embarazadas y personas con tratamientos médicos. Si un paciente no cumplía con el seguimiento médico, el sistema enviaba alertas a los usuarios para que se comunicaran con ellos y se aseguraran de que volvieran a cumplir con su revisión o chequeo médico, garantizando así su bienestar.'
-            ], 
+            ],
         },
       ];
-    
+
 
       const accordionDataEn = [
         {
+          title: 'Dura Digital',
+          content: [
+            'I worked on Launch360, a SaaS platform for 360° feedback surveys and organizational development. My role went far beyond simply "developing features":',
+            '📌Product architecture: I developed and maintained an API in Laravel and a SPA in Vue.js, designed for multi-tenant organizations with role-based access.',
+            '📌Third-party integrations: I integrated APIs such as Square (payments, subscriptions, and billing), SurveyMonkey (survey distribution and response collection), and Auth0 (authentication).',
+            '📌Reporting engine: I developed a dynamic engine capable of generating PDF files via server-side rendering using Blade and Browsershot, along with streaming CSV exports with chunked processing.',
+            '📌API performance: I optimized through endpoint caching, eager loading, and deferred job queues using polling patterns for asynchronous operations.',
+            '📌Real-time features: I implemented functionality using WebSockets with Pusher and Laravel Echo to live-update survey status.',
+            '📌DevOps: I managed containerized deployments using Docker.',
+            '🔗https://launch-360.com/'
+          ],
+        },
+        {
+          title: 'Lirmi',
+          content: [
+            'I collaborated with the team responsible for maintaining and evolving a comprehensive school management platform designed to support teachers, students, and families.',
+            'My work focused on identifying and resolving technical issues, as well as developing new features that enhance the user experience. I used technologies such as PHP, Laravel, Vue.js, JavaScript, and PostgreSQL to work on both the backend and frontend. My responsibilities included:',
+            '📌Interactive component development: to improve platform usability.',
+            '📌Query and database structure optimization: to enhance performance.',
+            '📌Key process improvements: consistently aligning solutions with product goals and the real needs of users.',
+            '🔗https://www.lirmi.com/'
+          ],
+        },
+        {
           title: 'Laken Group',
           content: [
-            'My current involvement with the Laken Group has led to optimization results in the logistics, marketing, and consulting of special and highly complex medications, benefiting patients and healthcare professionals:',
-            '📌First Aid Kits: development and implementation of medication stock control that is sent from pharmacies and received at Sanatorio Franchin (Buenos Aires) for patients who need to be hospitalized with a proposed date for their treatment execution. Also allowing the assignment and/or reassignment of medication associated with a new case.',
-            'The implementation ensured that Sanatorio Francin has the medication available and in the appropriate quantity when needed. This contributes to improving patient safety and accuracy in treatment delivery.',
-            '📌Massive SMS: I developed a background process for validating patient contacts of a healthcare provider through SMS, where a series of expected responses and actions were established based on the patient\'s response to proceed with their validation and storage in a database.',
-            'Through predefined responses and programmed actions, the validation process was automated. This saves time and resources by eliminating the need for manual intervention in each case, reducing potential human errors.',
-            '📌API for Billing: There was a need to improve the integration of billings from the UOCRA healthcare provider into the company\'s integrated system, which made it difficult to receive and validate key data.',
-            'I developed the integration of the UOCRA Billing API into our system. This integration allowed the transfer of billings in JSON format, including dates, medication details, and costs, to the UOCRA System. I implemented rigorous validation of the system\'s responses, incorporating specific validations and interpretation of response codes, determining whether billings are complete, incomplete, or non-existent.',
-            'As a result, this integration provided clarity about its integrity, accurately informs the accounting area, ensuring informed and efficient decisions regarding the received billings.',
-            '📌Web Tracking - Non-Withdrawal Product Module: Order management in the company\'s pharmacy network required improvement in efficiency and communication with patients.',
-            'It lacked a system for tracking and managing orders delivered to pharmacies and those pending withdrawal by patients, which made decision-making and communication difficult.',
-            'I developed the new "Non-Withdrawal Product" module within the "Web Tracking" platform, an innovative tool that optimizes order tracking and management. Implementing web services and background processes for sending WhatsApp notifications to inform patients about the availability of their medications, with options to choose from.',
-            'As a result, order management has been improved, efficiency has been increased, and more effective tracking of cases has been achieved, which has had a positive impact on the overall management process.'
+            'Health and logistics solutions for pharmaceutical distribution, medical dispensing, and patient care automation. Stack: PHP, Laravel, Symfony, Doctrine, Angular, TypeScript, SQL Server, MySQL, and Docker.',
+            '📌Pharmaceutical platform: Medication management and traceability with Laravel and Angular for large-scale operations in Argentina.',
+            '📌Logistics: Automatic delivery time calculations, order validation, stock control, and coordination between pharmacies, carriers, and patients.',
+            '📌Diabetes medication: Medication request management system for diabetic patients in health centers.',
+            '📌Dispensing: Electronic prescription validation, inventory management, and dispensing coordination to improve operational traceability.',
+            '📌Quotes & tenders: Tendering platform with automated quoting flows, profitability-based approval circuits, and PDF/Excel export.',
+            '📌WhatsApp bot: Medical consultation automation integrating third-party services.',
+            '📌Patient care: Logic to coordinate pharmacy pickups and home deliveries based on patient history and condition.',
           ],
         },
         {
           title: 'Club Pedidos',
           content: [
-            'At Club Pedidos, I contributed to the development of an advanced online order platform with WhatsApp chatbot integration. My work improved order efficiency and communication with customers within the chatbot, as well as managing and storing order information on the platform for the hiring company to make decisions based on statistics. Thanks to the various requirements I developed, code optimizations, and interface design, the company was able to successfully launch into the market and obtain over 10 potential customers per month through their marketing campaigns.'
+            'At Club Pedidos, I contributed to the development of an advanced online order platform with WhatsApp chatbot integration. My work improved order efficiency and communication with customers within the chatbot, as well as managing and storing order information on the platform for the hiring company to make decisions based on statistics. Thanks to the various requirements I developed, code optimizations, and interface design, the company was able to successfully launch into the market and obtain over 2 potential customers per month through their marketing campaigns.'
           ],
         },
       
         {
           title: 'Marandú Communications',
           content: [
-            'During my time at Marandú Communications, I participated in the implementation of various web projects for the public sector.',
-            '🔗https://paf.misiones.gob.ar: Design, development, and implementation of the Familiar Agriculture Products Platform of Misiones (PAF). With PAF, anyone in the province of Misiones can find regional producers, see the products they sell, where they can find them, and get in touch. The web platform is also available for smartphones with the Android operating system.',
-            '🔗https://rutadelayerbamate.com.ar: Design, development, and implementation of the Yerba Mate Route platform, which leads travelers to visit artisanal, ecological, and industrial establishments, where they can learn about the complete production process, from extensive plantations to harvesting, drying, grinding, and packaging of the final product. The web platform is also available for smartphones with the Android operating system.',
-            '🔗https://cuenca.marandu.com.ar: Design, development, and implementation of the "Unique Information Management System" (SUGI) for use by producers in the Southern Ovine-Caprine Basin Zone of the province of Misiones.',
-            'The web application includes online animal stock updates, as well as the producer\'s affiliation status to various records and the ability to record additions and deletions of specimens for commercial transactions.',
-            'The application allowed the organizations working in the Basin to streamline control and necessary technical assistance with technical teams. Through it, the product\'s offer, origin, and traceability can be validated, as it is managed point-to-point, from the producer to the authorized processors (slaughterhouses) and product marketers (certified meat).',
-            '🔗https://guacurari.misiones.gov.ar/: The Guacurarí Platform is a web school management and communication system, which I contributed to by producing and using educational content in digital formats that promote interaction between teachers and students, as well as optimizing the working methods of technical schools in the province of Misiones. My main contribution focused on improving and developing the segmented messaging module with read tracking, creating a direct channel with the educational community, enhancing communication between students, parents, and teachers.'
+            'I participated in the design, development, and implementation of web platforms for the public sector in the province of Misiones.',
+            '🔗https://paf.misiones.gob.ar: PAF — connects regional producers with consumers across the province. Also available on Android.',
+            '🔗https://rutadelayerbamate.com.ar: Yerba Mate Route — tourism platform covering artisanal and industrial production sites. Also available on Android.',
+            '🔗https://cuenca.marandu.com.ar: SUGI — management system for the Ovine-Caprine Basin with stock control, affiliations, and end-to-end traceability from producer to market.',
+            '🔗https://guacurari.misiones.gov.ar/: Guacurarí — school management platform for technical schools. I developed the segmented messaging module with read tracking, improving communication between students, families, and teachers.',
           ],
         },
         {
@@ -120,7 +160,12 @@ const Result = ({ currentLanguage  }) => {
         {
           title: 'Misiones Online',
           content: [
-            'At Misiones Online, I built a web incident management application from scratch for the company\'s management area, to enhance internal communication with other departments. My work contributed to the organization and tracking of incidents, increased internal productivity, and expanded communication with users from the systems, commercial, press, and social media areas.'
+            'During my time at Misiones Online, I worked as a Fullstack PHP Web Developer within the Systems Department, contributing to the development and maintenance of internal platforms used across operations, marketing, and advertising management.',
+            '📌Task management: I developed and maintained an internal system used to assign tasks and send automatic notifications to employees based on their department and responsibilities.',
+            '📌CRM: I contributed to the development of a platform focused on contact management, communication campaigns, contests, marketing initiatives, and mass email distribution.',
+            '📌SGMOL: I worked on an advertising management system that allowed companies to manage banner formats, upload ad materials, configure campaign frequency across different media, and handle payment management.',
+            '📌Tech stack: I collaborated on both backend and frontend using PHP, JavaScript, jQuery, HTML, CSS, and MySQL within legacy and evolving systems.',
+            '📌Impact: I helped improve internal workflows, system usability, and operational efficiency across multiple areas of the business.',
           ],
         },
       
@@ -136,7 +181,7 @@ const Result = ({ currentLanguage  }) => {
       return (
         <div>
             <div className='title'>
-                {currentLanguage  === 'es' ? <b>{'</>Mis resultados'}</b>:<b>{'</>My results'}</b> }
+                {currentLanguage  === 'es' ? <b>{'<Trayectoria/>'}</b>:<b>{'<Career/>'}</b> }
             </div>
             <div className="result-box">
                 {currentLanguage  === 'es' ? 

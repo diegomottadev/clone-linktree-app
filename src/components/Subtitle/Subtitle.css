@@ -1,22 +1,16 @@
 .subtitle {
-    position: relative;
-    padding-bottom: 10px;
-    color: var(--accentColor);
-    font-size: 15px;
     display: block;
-    font-family: var(--font);
     width: 100%;
+    margin: 0 auto 8px;
+    padding: 4px 0;
+    color: var(--text-secondary);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: var(--font);
     text-align: center;
-    font-weight: bold;
-    /*  animation   */
-    overflow: hidden;
-    /* background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor)); */
-    background: linear-gradient(90deg, var(--accentColor), var(--accentColor), var(--accentColor));
-
-    /* background-repeat: no-repeat; */
-    /* background-size: 80%; */
-    /* animation: animate 3.8s linear var(--delay) infinite; */
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    background: none;
+    background-clip: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: var(--text-secondary);
 }

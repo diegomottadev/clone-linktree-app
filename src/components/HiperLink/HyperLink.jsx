@@ -17,10 +17,6 @@ const HyperLink = ({ onHyperlink }) => {
     return(
     <div className="links">
        
-        <a className="link" href="https://diegomotta.dev" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-globe">&nbsp;</i>{content_3} 
-        </a>
-
         <a className="link" href="https://github.com/diegomottadev" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github">&nbsp;</i>Github
         </a>
@@ -31,7 +27,7 @@ const HyperLink = ({ onHyperlink }) => {
             <i className="fab fa-linkedin">&nbsp;</i>Linkedin 
         </a>
         <a className="link" href="https://twitter.com/diegomottadev" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-twitter">&nbsp;</i> {content_4}
+            <svg viewBox="0 0 24 24" style={{width:'1em',height:'1em',fill:'currentColor',marginRight:'6px',verticalAlign:'-0.125em'}} aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>{content_4}
         </a>
        
         <Link className="link" onClick={(e)=>onClickResult (e)}>
@@ -43,10 +39,6 @@ const HyperLink = ({ onHyperlink }) => {
         {/* <a className="link" href="https://docs.google.com/forms/d/1fv3ikXJz9HDjEzX0c5KW1SkoLyyY1nrbB4Ma5IQ5vMo/edit" target="_blank" rel="noopener noreferrer">
         <i className="fa fa-inbox">&nbsp;</i> {content_4} 
         </a> */}
-        <a className="link" href="https://diegomotta.dev/dev-101/" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-book">&nbsp;</i>{parsed_text_content_0[0]}<br></br>{parsed_text_content_0[1]} 
-        </a>  
-       
     </div>
  
 );

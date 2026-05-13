@@ -1,19 +1,16 @@
-
 .bio-box {
     max-width: 600px;
     width: auto;
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .bio {
-    color: var(--accentColor);
-    font-size: 1rem;
-    margin-left: 10px;
-    margin-right: 10px;
-    line-height: 1.25;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.6;
     font-family: var(--font);
-
     text-align: justify;
     text-decoration: none;
 }

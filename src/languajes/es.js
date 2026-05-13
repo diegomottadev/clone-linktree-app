@@ -13,14 +13,14 @@ export default {
         content_7 :"Estos proyectos han dado lugar a resultados tangibles, realidades funcionales y clientes completamente encantados."
     },
     descriptionHyperlinks:{
-        content_1 :'👇 Visita mi sitio web para descargar mi ebook "DEV 101" y obtén acceso tips invaluables para potenciar tu carrera como desarrollador de software.👇'
+        content_1 :''
     },
     hyperlinks : {
         content_0: "Descarga gratis la guía [DEV 101] \n Tips invaluables para potenciar tu carrera dev",
-        content_1: "Mis resultados",
+        content_1: "Trayectoria",
         content_2: "Portofolio",
         content_3: "Sitio web",
-        content_4: "X (ex-Twitter)",
+        content_4: "X (Twitter)",
         content_5: "Contactame",
         
     }

@@ -1,8 +1,9 @@
 .userName {
-    color: var(--accentColor);
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.25;
+    color: var(--text-primary);
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 1.2;
     display: block;
     font-family: var(--font);
     width: 100%;
