@@ -5,7 +5,7 @@ import Title from "./components/Title/Title";
 import HyperLink from "./components/HiperLink/HyperLink";
 import Subtitle from "./components/Subtitle/Subtitle";
 import Bio from "./components/Bio/Bio";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Result from "./components/Result/Result";
 import { useState } from "react";
 import en from './languajes/en';
@@ -47,8 +47,19 @@ function App() {
               <Title onTitle={texts.title}/>
               <Subtitle  />
               <Bio onBio={texts.bio} currentLanguage={language}/>
+              <div className="links" style={{maxWidth:'675px',margin:'0 auto'}}>
+                <Link className="link link-featured" to="/results">
+                  <i className="fa fa-rocket">&nbsp;</i>{texts.hyperlinks.content_1}
+                </Link>
+              </div>
               <DescriptionHyperlinks onDescription={texts.descriptionHyperlinks} />
+              <p className="links-section-title">{language === 'es' ? 'Encuéntrame en' : 'Find me on'}</p>
               <HyperLink onHyperlink={texts.hyperlinks} />
+              <footer className="site-footer">
+                {language === 'es'
+                  ? '"Convirtiendo ideas en código, una línea a la vez." — Diego Motta'
+                  : '"Turning ideas into code, one line at a time." — Diego Motta'}
+              </footer>
             </div>
           }
         />
@@ -66,7 +77,11 @@ function App() {
                 <Title onTitle={texts.title}/>
                 <Subtitle />
                 <Result  currentLanguage={language}/>
-              
+                <footer className="site-footer">
+                  {language === 'es'
+                    ? '"Convirtiendo ideas en código, una línea a la vez." — Diego Motta'
+                    : '"Turning ideas into code, one line at a time." — Diego Motta'}
+                </footer>
             </div>} />
 
       </Routes>

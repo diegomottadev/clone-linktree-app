@@ -738,3 +738,24 @@
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
+
+.links-section-title {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-family: var(--font);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 24px 0 4px;
+}
+
+.site-footer {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    font-family: var(--font);
+    font-style: italic;
+    padding: 24px 16px 32px;
+    opacity: 0.9;
+}
