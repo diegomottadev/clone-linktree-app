@@ -7,7 +7,7 @@ const Bio = ({ onBio, currentLanguage }) => {
       {Object.values(onBio).map((text, index) => (
         <p key={index} className="bio">{text}</p>
       ))}
-      <div style={{ padding: "75% 0 0 0", position: "relative", marginTop: "28px" }}>
+      <div style={{ padding: "75% 0 0 0", position: "relative", marginTop: "12px" }}>
         <iframe
           src={
             currentLanguage === "es"
