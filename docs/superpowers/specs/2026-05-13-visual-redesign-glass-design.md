@@ -15,7 +15,7 @@ Improve the first impression of the site by modernizing the visual design. The a
 
 ## Design Direction
 
-**Fondo:** Dark gradient (`#0d1117` → `#1a2233`) with existing animated falling stars — unchanged.
+**Background:** Dark gradient (`#0d1117` → `#1a2233`) with existing animated falling stars — unchanged.
 
 **UI elements (glass style):**
 - `background: rgba(255, 255, 255, 0.08–0.12)`
@@ -30,7 +30,7 @@ Improve the first impression of the site by modernizing the visual design. The a
 - Body/link text: color `#e2e8f0` on glass, `font-weight: 500–600`
 - Muted text: `#64748b`
 
-**Language selector:** Small pill buttons in the top-right corner — active language with `rgba(255,255,255,0.12)` background, inactive fully transparent.
+**Language selector:** Small pill buttons in the top-right corner — active language with `rgba(255,255,255,0.12)` background, inactive fully transparent. All styling moves to `App.css` (`.language-selector` and `.language-selector button.selected` classes already exist there); the existing inline pixel margins on the buttons in `App.js` (`marginLeft`/`marginRight: '1px'`) remain untouched.
 
 **Link buttons:** All links rendered as glass pills with arrow indicator (`→`) on the right. "Mis logros" button slightly more muted (`rgba(255,255,255,0.05)`) to differentiate as internal navigation.
 
@@ -43,14 +43,20 @@ Improve the first impression of the site by modernizing the visual design. The a
 | File | What changes |
 |------|-------------|
 | `src/index.css` | CSS variables: `--bgColor`, `--accentColor`, add glass utility values |
-| `src/App.css` | Background gradient, star animation (keep), layout/spacing |
-| `src/components/HiperLink/HyperLink.jsx` (and its CSS) | Glass button style |
-| `src/components/Bio/Bio.jsx` (and its CSS) | Glass card style |
-| `src/components/Accordion.jsx` (and its CSS) | Glass accordion style |
-| `src/components/UserName/UserName.jsx` (and its CSS) | Updated typography |
-| `src/components/Title/Title.jsx` (and its CSS) | Updated typography |
-| `src/components/Subtitle/Subtitle.jsx` (and its CSS) | Subtitle tag pill style |
-| `src/App.js` (language selector inline styles or CSS) | Pill button style |
+| `src/App.css` | Background gradient, star animation (keep), layout/spacing, language selector pill styles |
+| `src/components/HiperLink/HyperLink.css` | Glass button style for all link cards |
+| `src/components/Bio/Bio.css` | Glass card style for bio section |
+| `src/components/Accordion.css` | Glass accordion style (closed and open states) |
+| `src/components/UserName/UserName.css` | Updated typography (name weight, spacing) |
+| `src/components/Title/Title.css` | Updated typography (role subtitle) |
+| `src/components/Subtitle/Subtitle.css` | Subtitle rotating tag pill style |
+| `src/components/DescriptionHyperlinks/DescriptionHyperlinks.css` | Glass card style for the description block above the links |
+| `src/components/ProfilePicture/ProfilePicture.css` | Avatar border/frame updated to match glass aesthetic |
+| `src/components/Result/Result.css` | Glass style for `/results` page wrapper and `.result-box` container |
+
+### Dependency note
+
+`Result.jsx` imports `HiperLink/HyperLink.css` directly to reuse `.link` and `.links` classes for the "Volver" back button. Any glass styles applied to those classes in `HyperLink.css` will automatically affect the "Volver" button on the results page — this is the intended behavior.
 
 ## What Does NOT Change
 
@@ -68,4 +74,5 @@ Improve the first impression of the site by modernizing the visual design. The a
 - All links still navigate to the correct URLs
 - Accordions on `/results` still expand/collapse
 - Vimeo video still embeds in Bio
-- Visual result matches the approved mockup: glass cards on dark star background
+- All interactive UI panels have `backdrop-filter: blur` applied and a semi-transparent `rgba` background
+- No solid white or opaque backgrounds remain on any card, button, or container

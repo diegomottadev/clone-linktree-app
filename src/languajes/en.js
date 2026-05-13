@@ -13,14 +13,14 @@ export default {
         content_7: "These projects have led to tangible results, functional realities, and highly satisfied clients."
     },
     descriptionHyperlinks: {
-        content_1: '👇 Visit my website to download my ebook "DEV 101" and gain access to invaluable tips to boost your career as a software developer.👇'
+        content_1: ''
     },
     hyperlinks : {
         content_0: "{DEV 101} \n Invaluable Tips to Boost Your Dev Career",
-        content_1: "My Achievements",
+        content_1: "Career",
         content_2: "Portfolio",
         content_3: "Site web",
-        content_4: "X (ex-Twitter)",
+        content_4: "X (Twitter)",
         content_5: "Contact Me",
     }
 };

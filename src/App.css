@@ -20,14 +20,27 @@
 
 .language-selector {
     display: flex;
-    justify-content: flex-end; /* Alinea los botones al margen derecho */
-    padding: 5px;
-  }
+    justify-content: flex-end;
+    padding: 8px 10px;
+    gap: 6px;
+}
 
-  .language-selector button.selected {
-    border: 2px solid var(--accentColor);
-    border-radius: 5px;
-  }
+.language-selector button {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    color: var(--text-muted);
+    padding: 4px 12px;
+    font-size: 11px;
+    font-family: var(--font);
+    cursor: pointer;
+}
+
+.language-selector button.selected {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: var(--text-primary);
+}
 /*-------------------------animations-----------------------*/
 @keyframes transitionAnimation {
     0% {
