@@ -1,7 +1,7 @@
 const es = {
 
     title: {
-        content : "Desarrollador Fullstack Web"
+        content : "Senior Fullstack Developer"
     },
     bio : {
         content_1: "Hola, soy Diego. Me dedico al desarrollo de software.",
