@@ -4,14 +4,15 @@ const en = {
         content : "Fullstack Web Developer"
     },
     bio: {
-        content_1: "Hi, I'm Diego. I work in software development.",
-        content_2: "For more than 10 years I've been building web applications for companies that need faster, clearer tools for their day-to-day.",
-        content_3: "I like working on products that actually get used.",
-        content_4: "The kind that take work off the team's hands and that users understand without a manual.",
-        content_5: "I've worked at companies of all sizes, in healthcare, education, tourism and HRTech, and with teams I learned a ton from.",
-        content_6: "I always try to make technology do one thing: solve the problem without adding another one.",
-        content_7: "A good application works as it should, every day. (That's enough to make me happy.)",
-        content_8: "Here you can see some of the projects and experiences that were part of that journey."
+        content_1: "Hi, I'm Diego. I build software for a living.",
+        content_2: "For 10+ years I've been making web apps for companies that need faster, clearer tools for their daily work.",
+        content_3: "I like working on products people actually use.",
+        content_4: "The kind that saves the team work and that users get without a manual.",
+        content_5: "I've worked with companies of all sizes, in healthcare, education, tourism and HRTech, and learned a ton from the teams along the way.",
+        content_6: "These days I work with AI-assisted development and Spec-Driven Development: I pin down what needs to be built first, then use Claude Code and Cursor to ship it faster and with fewer bugs.",
+        content_7: "I try to get tech to do one thing: solve the problem without creating a new one.",
+        content_8: "A good app works the way it should, every single day. (That's enough to make me happy.)",
+        content_9: "Here are some of the projects and experiences that got me here."
     },
     descriptionHyperlinks: {
         content_1: ''
