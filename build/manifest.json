@@ -1,8 +1,8 @@
 {
   "short_name": "Diego Motta",
   "name": "Diego Motta | Fullstack Developer Web",
-  "description": "Desarrollador de software. Hace más de 10 años que creo aplicaciones web para empresas, hoy con desarrollo asistido por IA y Spec-Driven Development.",
-  "lang": "es",
+  "description": "Software developer. For 10+ years I've been making web apps for companies, now with AI-assisted development and Spec-Driven Development.",
+  "lang": "en",
   "icons": [
     {
       "src": "favicon.ico",
