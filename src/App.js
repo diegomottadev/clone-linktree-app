@@ -7,7 +7,7 @@ import Subtitle from "./components/Subtitle/Subtitle";
 import Bio from "./components/Bio/Bio";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Result from "./components/Result/Result";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import en from './languajes/en';
 import es from './languajes/es';
 import DescriptionHyperlinks from "./components/DescriptionHyperlinks/DescriptionHyperlinks";
@@ -28,6 +28,10 @@ function App() {
   const [language, setLanguage] = useState('es'); // Por defecto en inglés
 
   const texts = language === 'en' ? en : es;
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
 
   return (
     <Router>
@@ -55,11 +59,6 @@ function App() {
               <DescriptionHyperlinks onDescription={texts.descriptionHyperlinks} />
               <p className="links-section-title">{language === 'es' ? 'Encuéntrame en' : 'Find me on'}</p>
               <HyperLink onHyperlink={texts.hyperlinks} />
-              <footer className="site-footer">
-                {language === 'es'
-                  ? '"Convirtiendo ideas en código, una línea a la vez." — Diego Motta'
-                  : '"Turning ideas into code, one line at a time." — Diego Motta'}
-              </footer>
             </div>
           }
         />
@@ -77,11 +76,6 @@ function App() {
                 <Title onTitle={texts.title}/>
                 <Subtitle />
                 <Result  currentLanguage={language}/>
-                <footer className="site-footer">
-                  {language === 'es'
-                    ? '"Convirtiendo ideas en código, una línea a la vez." — Diego Motta'
-                    : '"Turning ideas into code, one line at a time." — Diego Motta'}
-                </footer>
             </div>} />
 
       </Routes>

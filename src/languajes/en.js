@@ -1,19 +1,17 @@
-export default {
+const en = {
 
     title: {
         content : "Fullstack Web Developer"
     },
     bio: {
-        content_1: "Hi, I'm Diego, I work in software development.",
-        content_2: "I've spent over 10 years building web applications for businesses that need faster, clearer, and more useful tools in their day-to-day.",
-        content_3: "I like working on products that are actually used.",
-        content_4: "The ones that help the team.",
-        content_5: "The ones that make the user experience feel right.",
-        content_6: "Over the years I've worked on projects and companies of all sizes, collaborating with great teams and building solutions with real impact.",
-        content_7: "I always try to make technology do one thing: solve problems without making things more complicated.",
-        content_8: "Because in the end, a good application isn't the one with the most features.",
-        content_9: "It's the one that works as it should.",
-        content_10: "Here you can see some of the projects and experiences that were part of that journey."
+        content_1: "Hi, I'm Diego. I work in software development.",
+        content_2: "For more than 10 years I've been building web applications for companies that need faster, clearer tools for their day-to-day.",
+        content_3: "I like working on products that actually get used.",
+        content_4: "The kind that take work off the team's hands and that users understand without a manual.",
+        content_5: "I've worked at companies of all sizes, in healthcare, education, tourism and HRTech, and with teams I learned a ton from.",
+        content_6: "I always try to make technology do one thing: solve the problem without adding another one.",
+        content_7: "A good application works as it should, every day. (That's enough to make me happy.)",
+        content_8: "Here you can see some of the projects and experiences that were part of that journey."
     },
     descriptionHyperlinks: {
         content_1: ''
@@ -27,3 +25,5 @@ export default {
         content_5: "Contact Me",
     }
 };
+
+export default en;

@@ -1,19 +1,17 @@
-export default {
+const es = {
 
     title: {
         content : "Desarrollador Fullstack Web"
     },
     bio : {
-        content_1: "Hola, soy Diego, me dedico al desarrollo de software.",
-        content_2: "Llevo más de 10 años creando aplicaciones web para empresas que necesitan herramientas más rápidas, más claras y más útiles para su día a día.",
-        content_3: "Me gusta trabajar en productos que realmente se usan.",
-        content_4: "De los que ayudan al equipo.",
-        content_5: "De los que hacen que la experiencia del usuario tenga sentido.",
-        content_6: "A lo largo de estos años he participado en proyectos y empresas de distintos tamaños, colaborando con equipos muy buenos y construyendo soluciones con impacto real.",
-        content_7: "Siempre intento que la tecnología haga una cosa: resolver problemas sin complicar más las cosas.",
-        content_8: "Porque al final, una buena aplicación no es la que tiene más funciones.",
-        content_9: "Es la que funciona como debe.",
-        content_10: "Acá puedes ver algunos de los proyectos y experiencias que formaron parte de ese camino."
+        content_1: "Hola, soy Diego. Me dedico al desarrollo de software.",
+        content_2: "Hace más de 10 años que creo aplicaciones web para empresas que necesitan herramientas más rápidas y claras para su día a día.",
+        content_3: "Me gusta trabajar en productos que se usan de verdad.",
+        content_4: "De esos que le ahorran trabajo al equipo y que el usuario entiende sin manual.",
+        content_5: "Trabajé en empresas de distintos tamaños, en salud, educación, turismo y HRTech, y con equipos de los que aprendí un montón.",
+        content_6: "Siempre intento que la tecnología haga una cosa: resolver el problema sin sumar otro.",
+        content_7: "Una buena aplicación funciona como debe, todos los días. (Con eso ya estoy contento.)",
+        content_8: "Acá podés ver algunos de los proyectos y experiencias que formaron parte de ese camino."
     },
     descriptionHyperlinks:{
         content_1 :''
@@ -28,3 +26,5 @@ export default {
         
     }
   };
+
+export default es;

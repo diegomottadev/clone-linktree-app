@@ -2,11 +2,9 @@ import React from 'react';
 import './ProfilePicture.css'
 
 const ProfilePicture = () => (
-  <a  className="profilePicture" href="popup"> 
-    <img  src="images/perfil_nerd.png" alt="MyProfilePicture"/>
-
-  </a>
- 
+  <div className="profilePicture">
+    <img src="images/perfil_nerd.jpg" alt="MyProfilePicture"/>
+  </div>
 );
 
 export default ProfilePicture;

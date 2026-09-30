@@ -1,18 +1,8 @@
 import React from 'react';
 import './HyperLink.css'
-import { Link, useNavigate } from "react-router-dom";
 
 const HyperLink = ({ onHyperlink }) => {
-    const {content_0, content_1,content_2,content_3,content_4,content_5} = onHyperlink
-
-    const parsed_text_content_0 = content_0.split(/\n\s*/);
-
-    const navigate = useNavigate();
-
-    const onClickResult = (event) => {
-        event.preventDefault()
-        navigate("/results")
-    }
+    const { content_4, content_5 } = onHyperlink
 
     return(
     <div className="links">

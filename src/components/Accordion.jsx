@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useId, useState } from "react";
 import "./Accordion.css";
 
 const Accordion = ({ title, content }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const contentId = useId();
 
   const handleToggle = () => {
     setIsExpanded(!isExpanded);
@@ -49,12 +50,18 @@ const Accordion = ({ title, content }) => {
   };
 
   return (
-    <div className="accordion" onClick={handleToggle}>
-      <p className="result-title">
+    <div className={`accordion${isExpanded ? ' expanded' : ''}`}>
+      <button
+        type="button"
+        className="result-title"
+        onClick={handleToggle}
+        aria-expanded={isExpanded}
+        aria-controls={contentId}
+      >
         <i className={`fa fa-angle-right accordion-icon${isExpanded ? ' expanded' : ''}`}>&nbsp;</i>
         <b>{title}</b>
-      </p>
-      <div className={`accordion-content${isExpanded ? ' expanded' : ''}`}>
+      </button>
+      <div id={contentId} className={`accordion-content${isExpanded ? ' expanded' : ''}`}>
         <div className="accordion-content-inner">{formatContent(content)}</div>
       </div>
     </div>
