@@ -1,34 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Subtitle.css'
 
-const Subtitle = () => {
-
-    const [subtitle, setsubtitle] = useState('#React.js #Javascrip #TypeScript');
-
-    useEffect(() => {
-        
-        const intervalId = setInterval(() => {
-            if (subtitle.trim() === '#Node.js #Express.js #Jest #Supertest') {
-                setsubtitle('#React.js #Javascrip #TypeScript');
-            }else if (subtitle.trim() === '#React.js #Javascrip #TypeScript') {
-                setsubtitle('#PHP #Laravel #MySql');
-            }else if (subtitle.trim() === '#PHP #Laravel #MySql') {
-                setsubtitle('#AWS #Docker #DigitalOceon #Git');
-            }else {
-                setsubtitle('#Node.js #Express.js #Jest #Supertest');
-            }
-        }, 2000);
-
-        return () => clearInterval(intervalId);
-
-    }, [subtitle]);
-
-    return (
+const Subtitle = () => (
     <div className='subtitle'>
-        {subtitle}
+        #PHP #Laravel #Vue #AI-Assisted-Development
     </div>
-    );
-
-    };
+);
 
 export default Subtitle;

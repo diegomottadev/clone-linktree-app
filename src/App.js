@@ -25,7 +25,7 @@ const LanguageSelector = ({ onSelectLanguage,currentLanguage  }) => {
 function App() {
 
 
-  const [language, setLanguage] = useState('es'); // Por defecto en inglés
+  const [language, setLanguage] = useState('en'); // Por defecto en inglés
 
   const texts = language === 'en' ? en : es;
 
