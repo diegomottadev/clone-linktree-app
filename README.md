@@ -1,6 +1,6 @@
 # clone-linktree-app
 
-A Linktree-style personal landing page for **Diego Motta**, Senior Fullstack Developer. One page with a short bio and social links, plus a second page listing career achievements. It works in English and Spanish.
+A Linktree-style personal landing page to showcase my professional journey and projects. One page has a short bio and social links, and a second page lists my career achievements. It works in English and Spanish.
 
 **Live site:** https://diegomottadev.github.io
 
